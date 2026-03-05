@@ -52,7 +52,7 @@ const Hero = () => {
                         initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
                         className="text-xl text-gray-300 mb-10 leading-relaxed font-light"
                     >
-                        A powerful robotics platform with native voice conversation capabilities. Hosting an advanced chat-bot AI agent, Uli Kaya fluently conducts presentations and navigates autonomously.
+                        A powerful robotics platform with native voice conversation capabilities. Hosting AI agents with local LLM, Uli Kaya fluently conducts presentations and can navigate autonomously.
                     </motion.p>
                     <motion.div
                         initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}
