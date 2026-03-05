@@ -17,10 +17,12 @@ const Navbar = () => (
             <a href="#specs" className="hover:text-secondary transition-colors">Specifications</a>
         </div>
         <a
-            href="mailto:genshianglin@gmail.com"
-            className="bg-accent hover:bg-orange-500 text-white px-6 py-2.5 rounded-full text-sm font-semibold transition-all shadow-[0_4px_15px_rgba(242,148,98,0.4)] hover:shadow-[0_6px_20px_rgba(242,148,98,0.6)] transform hover:-translate-y-0.5"
+            href="https://www.ulisdk.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-accent hover:opacity-90 text-white px-5 py-2 rounded-full text-sm font-semibold transition shadow-[0_4px_15px_rgba(242,148,98,0.4)]"
         >
-            Request Kit Quote
+            Explore Uli SDK
         </a>
     </nav>
 );
