@@ -145,7 +145,7 @@ const Architecture = () => (
 
 const Capabilities = () => {
     const capabilities = [
-        { title: "Voice Conversation", desc: "Fine-tuned onboard LLM (Gemma 3) with private information, integrated speech-to-text, and text-to-speech modules.", icon: <Volume2 className="text-secondary" /> },
+        { title: "Voice Conversation", desc: "Fine-tuned onboard LLM (Gemma 4) with private data set, integrated speech-to-text, and text-to-speech modules.", icon: <Volume2 className="text-secondary" /> },
         { title: "Maneuverability", desc: "Omnidirectional movement capability including full 360-degree zero-radius turning.", icon: <Compass className="text-accent" /> },
         { title: "Teleoperation", desc: "Remote control capabilities executed seamlessly via gamepad joysticks.", icon: <Radio className="text-secondary" /> },
         { title: "Autonomous Navigation", desc: "Independent movement featuring real-time visual SLAM and autonomous navigation.", icon: <Navigation className="text-accent" /> },
